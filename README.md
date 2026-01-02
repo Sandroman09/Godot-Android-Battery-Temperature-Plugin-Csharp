@@ -7,7 +7,7 @@ This plugin has also a gdscript version [click here](https://github.com/Sandroma
    
    ![Image of the GDBatteryTemp folder in the addons folder](Screenshots/Screenshot_step_1.png)
   
-2) Activate the plugin in the project settings. (If you get an error about the script make sure to build the C# project.
+2) Activate the plugin in the project settings (If you get an error about the script make sure to build the C# project).
    
    ![Image of the plugin activation in Project -> Project settings -> Plugins](Screenshots/Screenshot_step_2.png)
 
@@ -23,5 +23,5 @@ This plugin has also a gdscript version [click here](https://github.com/Sandroma
    ![Image of the correct build gradle settings while exporting the project to the Android platform](Screenshots/Screenshot_step_5.png)
 
 
-There is also a demo project avaiable if you want to test the plugin, you can find it in the "Godot Android battery temperature plugin demo project" folder.
+There is also a demo project avaiable if you want to test the plugin, you can find it in the "Godot Android battery temperature plugin C# demo project" folder.
 Feel free to open an issue if there is something wrong or if the plugin doesn't work on a specific godot version.
