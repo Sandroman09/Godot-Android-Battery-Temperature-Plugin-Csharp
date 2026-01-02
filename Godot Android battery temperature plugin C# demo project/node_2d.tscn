@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://cdsu3xoqbnwfb"]
+
+[ext_resource type="Script" uid="uid://dmuegb008kpdr" path="res://addons/GDBatteryTempC#/AndroidBatteryTemperature.cs" id="1_0e48y"]
+[ext_resource type="Script" uid="uid://cqh7h5sa7osxd" path="res://Battery_degrees.cs" id="2_epypp"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_0hol4"]
+font_size = 25
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AndroidBatteryTemperature" type="Node" parent="."]
+script = ExtResource("1_0e48y")
+metadata/_custom_type_script = "uid://dmuegb008kpdr"
+
+[node name="Battery_degrees" type="Label" parent="."]
+offset_left = 81.0
+offset_top = 70.0
+offset_right = 121.0
+offset_bottom = 93.0
+text = "Battery Temperature: 30C°"
+label_settings = SubResource("LabelSettings_0hol4")
+script = ExtResource("2_epypp")
+metadata/_edit_use_anchors_ = true
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[connection signal="timeout" from="Timer" to="Battery_degrees" method="OnTimerTimeout"]

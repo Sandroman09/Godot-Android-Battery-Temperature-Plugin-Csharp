@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Godot Android Battery Temperature Plugin C# demo project", "Godot Android Battery Temperature Plugin C# demo project.csproj", "{301478B1-DD3F-4450-9205-4E8195591158}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{301478B1-DD3F-4450-9205-4E8195591158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301478B1-DD3F-4450-9205-4E8195591158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301478B1-DD3F-4450-9205-4E8195591158}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{301478B1-DD3F-4450-9205-4E8195591158}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{301478B1-DD3F-4450-9205-4E8195591158}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{301478B1-DD3F-4450-9205-4E8195591158}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
