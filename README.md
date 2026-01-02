@@ -15,7 +15,7 @@ This plugin has also a gdscript version [click here](https://github.com/Sandroma
 
    ![Image of the GodotAndroidBatteryTemperature node being added](Screenshots/Screenshot_step_3.png)
   
-4) On the GodotAndroidBatteryTemperature node you will be able to call the get_battery_temperature() method, it will return the battery temperature
+4) On the GodotAndroidBatteryTemperature node you will be able to call the GetBatteryTemperature() method, it will return the battery temperature
 
    ![Image of a script.gd using get_battery_temperature() method](Screenshots/Screenshot_step_4.png)
    
